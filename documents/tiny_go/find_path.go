@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"go/build"
 )
 
 func main() {
-	fmt.Println("Go Web Assembly")
+	fmt.Println(build.Default.GOPATH)
 }
